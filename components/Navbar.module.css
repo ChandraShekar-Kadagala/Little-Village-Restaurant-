@@ -26,8 +26,11 @@
 
 .logo img {
   height: 60px;
-  width: auto;
+  width: 60px;
   object-fit: contain;
+  background: white;
+  padding: 4px;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 
 .links {
@@ -70,6 +73,10 @@
 }
 
 @media (max-width: 900px) {
+  .logo img {
+    height: 45px;
+    width: 45px;
+  }
   .links {
     display: none;
   }

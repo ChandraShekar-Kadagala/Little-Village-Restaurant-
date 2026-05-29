@@ -100,17 +100,6 @@ export const Hero = () => {
         </motion.div>
       </div>
 
-      <motion.div 
-        className={styles.scrollIndicator}
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 0.7 }}
-        transition={{ duration: 1, delay: 2 }}
-      >
-        <span className={styles.statLabel}>Scroll to explore</span>
-        <div className={styles.mouse}>
-          <div className={styles.wheel}></div>
-        </div>
-      </motion.div>
     </section>
   );
 };
