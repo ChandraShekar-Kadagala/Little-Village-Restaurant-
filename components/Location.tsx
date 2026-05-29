@@ -68,7 +68,7 @@ export const Location = () => {
           transition={{ duration: 0.8 }}
         >
           <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15309.434440536762!2d80.5615714!3d16.4276707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35f10041d8e13d%3A0x6339ff025b6a3ce6!2sLittle%20Village%20Restaurant!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+            src="https://maps.google.com/maps?q=Hotel+Little+Village+Mangalagiri&t=&z=15&ie=UTF8&iwloc=&output=embed" 
             className={styles.map}
             allowFullScreen={false} 
             loading="lazy" 
