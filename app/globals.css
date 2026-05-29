@@ -1,0 +1,73 @@
+:root {
+  /* Color System */
+  --color-charcoal: #121212;
+  --color-charcoal-light: #1A1A1A;
+  --color-gold: #D4AF37;
+  --color-gold-light: #F3E5AB;
+  --color-orange: #FF6B35;
+  --color-white: #F8F5F2;
+  --color-white-muted: rgba(248, 245, 242, 0.7);
+
+  /* Typography */
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Layout */
+  --max-width: 1400px;
+  --section-padding: 6rem 5%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background-color: var(--color-charcoal);
+  color: var(--color-white);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  color: var(--color-gold-light);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Utilities */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, var(--color-gold), var(--color-orange));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

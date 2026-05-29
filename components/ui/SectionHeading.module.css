@@ -1,0 +1,34 @@
+.wrapper {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.wrapper.left {
+  text-align: left;
+}
+
+.wrapper.right {
+  text-align: right;
+}
+
+.subtitle {
+  color: var(--color-orange);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1.1;
+  color: var(--color-white);
+}
+
+.title span {
+  color: var(--color-gold);
+  font-style: italic;
+  font-weight: 400;
+}
