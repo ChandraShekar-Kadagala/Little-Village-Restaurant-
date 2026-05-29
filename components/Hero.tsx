@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Points, PointMaterial } from '@react-three/drei';
+// @ts-ignore - Missing type declarations for maath
 import * as random from 'maath/random/dist/maath-random.esm';
 import styles from './Hero.module.css';
 import { Button } from './ui/Button';
