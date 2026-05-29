@@ -8,11 +8,11 @@ import styles from './DiningExperience.module.css';
 
 export const DiningExperience = () => {
   return (
-    <section id="experience" className={styles.section}>
+    <section id="ambience" className={styles.section}>
       <div className={styles.container}>
         <SectionHeading 
-          title={<>More Than Just <br/><span>A Restaurant</span></>}
-          subtitle="The Experience"
+          title={<>A Luxurious <br/><span>Atmosphere</span></>}
+          subtitle="The Ambience"
         />
 
         <div className={styles.layout}>

@@ -2,7 +2,6 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Facebook, Instagram, Twitter } from 'lucide-react';
 import styles from './Footer.module.css';
 
 export const Footer = () => {
@@ -24,8 +23,8 @@ export const Footer = () => {
             <h4>Quick Links</h4>
             <div className={styles.links}>
               <Link href="#about" className={styles.link}>Our Story</Link>
-              <Link href="#menu" className={styles.link}>Full Menu</Link>
-              <Link href="#experience" className={styles.link}>Dining Experience</Link>
+              <Link href="#full-menu" className={styles.link}>Full Menu</Link>
+              <Link href="#ambience" className={styles.link}>Ambience</Link>
               <Link href="#location" className={styles.link}>Reservations</Link>
             </div>
           </div>
@@ -42,11 +41,10 @@ export const Footer = () => {
           </div>
 
           <div className={styles.column}>
-            <h4>Follow Us</h4>
-            <div className={styles.socials}>
-              <a href="#" className={styles.socialIcon}><Instagram size={20} /></a>
-              <a href="#" className={styles.socialIcon}><Facebook size={20} /></a>
-              <a href="#" className={styles.socialIcon}><Twitter size={20} /></a>
+            <h4>Order Online</h4>
+            <div className={styles.links}>
+              <a href="https://www.swiggy.com/city/vijayawada/little-village-mangalagiri-rest1236843" className={styles.link} target="_blank" rel="noreferrer">Order on Swiggy</a>
+              <a href="https://jsdl.in/DT-99F8B2GD9BT" className={styles.link} target="_blank" rel="noreferrer">JustDial Profile</a>
             </div>
           </div>
         </div>

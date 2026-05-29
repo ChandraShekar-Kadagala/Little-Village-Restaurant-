@@ -46,7 +46,7 @@ const dishes = [
 
 export const SignatureDishes = () => {
   return (
-    <section id="menu" className={styles.section}>
+    <section id="signature-dishes" className={styles.section}>
       <div className={styles.container}>
         <SectionHeading 
           title={<>Our Signature <br/><span>Masterpieces</span></>}

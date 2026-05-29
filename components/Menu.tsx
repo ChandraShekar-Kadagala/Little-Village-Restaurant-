@@ -22,12 +22,14 @@ const menuPages = [
 
 export const Menu = () => {
   return (
-    <section className={styles.section}>
+    <section id="full-menu" className={styles.section}>
       <div className={styles.container}>
         <SectionHeading 
           title={<>Explore Our <br/><span>Full Menu</span></>}
           subtitle="Culinary Delights"
         />
+        
+        <p className={styles.scrollHint}>Swipe or use Shift + Scroll to view full menu</p>
 
         <motion.div 
           className={styles.scrollContainer}

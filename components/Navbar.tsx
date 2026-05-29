@@ -25,8 +25,8 @@ export const Navbar = () => {
         </Link>
         <div className={styles.links}>
           <Link href="#about" className={styles.link}>Story</Link>
-          <Link href="#menu" className={styles.link}>Menu</Link>
-          <Link href="#experience" className={styles.link}>Experience</Link>
+          <Link href="#full-menu" className={styles.link}>Menu</Link>
+          <Link href="#ambience" className={styles.link}>Ambience</Link>
           <Link href="#location" className={styles.link}>Location</Link>
         </div>
         <button 

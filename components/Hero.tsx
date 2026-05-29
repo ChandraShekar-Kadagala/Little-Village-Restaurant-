@@ -75,8 +75,8 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.8 }}
         >
-          <Button variant="primary">Explore Menu</Button>
-          <Button variant="secondary">Reserve Table</Button>
+          <a href="#full-menu"><Button variant="primary">Explore Menu</Button></a>
+          <a href="#location"><Button variant="secondary">Reserve Table</Button></a>
         </motion.div>
 
         <motion.div 
