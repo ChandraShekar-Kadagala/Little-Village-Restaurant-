@@ -75,8 +75,18 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.8 }}
         >
-          <a href="#full-menu"><Button variant="primary">Explore Menu</Button></a>
-          <a href="#location"><Button variant="secondary">Reserve Table</Button></a>
+          <Button 
+            variant="primary" 
+            onClick={() => document.getElementById('full-menu')?.scrollIntoView({ behavior: 'smooth' })}
+          >
+            Explore Menu
+          </Button>
+          <Button 
+            variant="secondary"
+            onClick={() => document.getElementById('location')?.scrollIntoView({ behavior: 'smooth' })}
+          >
+            Reserve Table
+          </Button>
         </motion.div>
 
         <motion.div 

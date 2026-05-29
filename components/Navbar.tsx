@@ -36,6 +36,15 @@ export const Navbar = () => {
           {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
       </nav>
+
+      {mobileMenuOpen && (
+        <div className={styles.mobileMenu}>
+          <Link href="#about" className={styles.link} onClick={() => setMobileMenuOpen(false)}>Story</Link>
+          <Link href="#full-menu" className={styles.link} onClick={() => setMobileMenuOpen(false)}>Menu</Link>
+          <Link href="#ambience" className={styles.link} onClick={() => setMobileMenuOpen(false)}>Ambience</Link>
+          <Link href="#location" className={styles.link} onClick={() => setMobileMenuOpen(false)}>Location</Link>
+        </div>
+      )}
     </header>
   );
 };
